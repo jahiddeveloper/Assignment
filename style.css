@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/***font-family-styles**/
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/***nav***/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #5b55ff;
+    transition-duration: 0.3s;
+}
+
+.nav-logo {
+    font-size: 34px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.header {
+    background-image: url("Assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 120px;
+}
+
+/***banner***/
+
+.banner {
+    height: 550px;
+}
+
+.banner-h1 {
+    margin-top: 180px;
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+}
+.banner-h1-2 {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner button {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    width: 175px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #5b55ff;
+    transition-duration: 0.3s;
+}
+
+
+
+/**section-1***/
+
+.section-1 {
+    margin: 0px 160px 0px 140px;
+}
+
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-content {
+    width: 515px;
+}
+
+.action-content h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-content p {
+    font-size: 24px;
+    color: #252432;
+    margin-top: 23px;
+}
+
+.action-content button {
+    color: white;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.action-content button:hover {
+    background-color: #5b55ff;
+    transition-duration: 0.3s;
+}
+
+
+.action-img img {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+
+
+/***productice User***/
+
+.section-3 {
+   margin: 120px 160px 0px 140px; 
+   background-color: #e1e1fd;
+   padding: 50px 142px;
+   border-radius: 24px;
+   margin-bottom: 120px;
+}
+
+.section-3 h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 185px;
+}
+
+.box-titte {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+
+.box-description {
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
