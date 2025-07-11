@@ -103,7 +103,9 @@ nav ul li a:hover {
     transition-duration: 0.3s;
 }
 
-
+.main {
+    background: linear-gradient(to top, #f4f4ff, #ffffff);
+}
 
 /**section-1***/
 
@@ -239,21 +241,21 @@ nav ul li a:hover {
 .box-1 {
     height: 243px;
     width: 366px;
-    background-color: rgb(252, 231, 231);
+    background-color: #FFFFFF;
     padding: 24px;
     border-radius: 14px;
 }
 .box-2 {
     height: 243px;
     width: 366px;
-    background-color: rgb(252, 231, 231);
+    background-color: #FFFFFF;
     padding: 24px;
     border-radius: 14px;
 }
 .box-3 {
     height: 243px;
     width: 366px;
-    background-color: rgb(252, 231, 231);
+    background-color: #FFFFFF;
     padding: 24px;
     border-radius: 14px;
 }
